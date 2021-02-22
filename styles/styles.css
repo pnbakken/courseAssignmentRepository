@@ -1,0 +1,24 @@
+body {
+  background: #001111;
+  color: #fbffff;
+}
+
+h1 {
+  color: #ea8f55;
+}
+
+p {
+}
+
+a {
+  color: #adff2f;
+}
+
+a:visited {
+  color: cyan;
+}
+
+a:hover {
+  background: white;
+  color: black;
+}
