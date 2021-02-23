@@ -1,13 +1,17 @@
 body {
   background: #001111;
   color: #fbffff;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 h1 {
   color: #ea8f55;
+  font-size: 3em;
 }
 
 p {
+  font-size: 1.15em;
 }
 
 a {
@@ -21,4 +25,13 @@ a:visited {
 a:hover {
   background: white;
   color: black;
+}
+
+li {
+  list-style: circle;
+  width: fit-content;
+}
+
+li:hover {
+  background: orange;
 }
