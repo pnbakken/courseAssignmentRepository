@@ -27,11 +27,14 @@ a:hover {
   color: black;
 }
 
-li {
-  list-style: circle;
+#nav-list {
+}
+
+#short-list {
+  list-style: disc;
   width: fit-content;
 }
 
-li:hover {
+#short-list li:hover {
   background: orange;
 }
