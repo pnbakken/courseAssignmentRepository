@@ -1,6 +1,6 @@
 body {
   background: #001111;
-  color: #fbffff;
+  color: white;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -36,5 +36,29 @@ a:hover {
 }
 
 #short-list li:hover {
-  background: orange;
+  background: #ea8f55;
+  color: white;
+  width: fit-content;
+}
+
+#search-box {
+  border-radius: 0.5em;
+  border-width: 2px;
+  border-color: green;
+  padding-top: 2px;
+  padding-bottom: 1px;
+}
+
+#search-button {
+  border-radius: 0.5em;
+  border-color: white;
+  background: green;
+  color: white;
+  padding: 0.1em 0.5em;
+}
+
+#search-button:hover {
+  background: white;
+  color: green;
+  border-color: green;
 }
