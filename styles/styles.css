@@ -3,7 +3,6 @@ body {
   font-family: "Roboto" sans-serif;
   color: white;
   max-width: 900px;
-  margin: 0 auto;
 }
 
 h1 {
@@ -38,7 +37,9 @@ a:hover {
   color: black;
 }
 
-#nav-list {
+.navigation {
+  border: 100px;
+  border-color: white;
 }
 
 #short-list {
@@ -72,4 +73,22 @@ a:hover {
   background: white;
   color: green;
   border-color: green;
+}
+
+/* IMAGE RULES */
+
+.portrait {
+  width: 372px;
+  border: 10em;
+  border-width: 2em;
+  border-color: white;
+}
+
+.landscape {
+  height: 800px;
+}
+
+#image-box {
+  margin: 2.5em;
+  font-size: 25px;
 }
