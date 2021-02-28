@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form demo</title>
+</head>
+<body>
+    <!-- Action: where the form sends data. Method: which http method (get/post)-->
+    <form action="" method="get" >
+    <label for="username">
+        Username: 
+        <input id="username" type="text" placeholder="username"  required /> 
+    </label>
+    <label for="password">
+        Password: 
+        <input id="password" type="password" placeholder="password" required />
+     </label>
+    <input type="date" />
+    <input type="color" />
+    <input type="file" />
+    <input type="checkbox" />
+    <input type="submit" />
+    </form>
+
+    <form action="" method="get">
+        <p>Which is your favourite animal?</p>
+        <label for="dogs">
+            Dogs:
+            <input type="radio" id="dogs" name="petChoice" value="dog"/>
+        </label>
+        <label for="cats">
+            Cats:
+            <input type="radio" id="cats" name="petChoice" value="cat"/>
+        </label>
+        
+        <p>What's your favourite colour?</p>
+        <select>
+            <option value="red">Red</option>
+            <option value="orange">Orange</option>
+            <option value="yellow">Yellow</option>
+            <option value="blue">Blue</option>
+            <option value="purple">Purple</option>
+            <option value="green">Green</option>
+        </select>
+        
+    </form>
+    
+</body>
+</html>
